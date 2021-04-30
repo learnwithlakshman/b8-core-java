@@ -1,0 +1,79 @@
+
+
+.java
+     javac
+        .class
+           java {classfilename} 
+           
+---------------------------------------------------------------------------------------------------------------------
+
+public class Biggest{
+	
+		public static void main(String[] args){
+		
+		}
+		
+}
+public class Person{
+
+}
+public class Author{
+
+}
+
+public class BookDetails{
+
+}
+
+public 
+private 
+(default)
+protected
+
+class
+interface
+enum
+
+static
+native
+synchronized
+volatile
+final
+
+
+
+Primitive Data types:
+
+byte
+short
+int
+float
+long
+double
+boolean
+char
+
+
+if
+if-else
+if-else-if
+for
+while
+do-while
+switch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
