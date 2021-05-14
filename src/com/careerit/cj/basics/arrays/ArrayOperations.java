@@ -26,7 +26,24 @@ public class ArrayOperations {
 		return max;
 	}
 
-	public int binarySearch(int[] arr) {
+	public int binarySearch(int[] arr,int key) {
+		
+		// Element has to be in sorting
+		arr = sort(arr);
+		int l = 0;
+		int h = arr.length-1;
+		while(l<=h) {
+			int mid = (l + h) /2;
+			if(arr[mid] == key) {
+				return mid;
+			}
+			if(key > arr[mid]) {
+				l = mid + 1;
+			}else {
+				h = mid -1;
+			}
+		}
+		
 		return -1;
 	}
 
@@ -34,11 +51,9 @@ public class ArrayOperations {
 		int n = arr.length;
 		for (int i = 0; i < n - 1; i++) {
 			for (int j = 0; j < n - i - 1; j++) {
-
 				/*
 				 * Swap numbers if first element is bigger than second
 				 */
-
 				if (arr[j] > arr[j + 1]) {
 					int temp = arr[j];
 					arr[j] = arr[j + 1];
@@ -46,7 +61,6 @@ public class ArrayOperations {
 				}
 			}
 		}
-
 		/*
 		 * Sorted array is going return
 		 */
