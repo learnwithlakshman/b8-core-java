@@ -34,6 +34,7 @@ public class ArrayOperations {
 		int n = arr.length;
 		for (int i = 0; i < n - 1; i++) {
 			for (int j = 0; j < n - i - 1; j++) {
+				// Swapping number after checking condition
 				if (arr[j] > arr[j + 1]) {
 					int temp = arr[j];
 					arr[j] = arr[j + 1];
@@ -41,6 +42,7 @@ public class ArrayOperations {
 				}
 			}
 		}
-		return arr;
+		
+		return arr; // Returns sorted array
 	}
 }
