@@ -1,5 +1,6 @@
 package com.careerit.cj.basics.arrays;
 
+import static org.junit.Assert.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
@@ -53,5 +54,22 @@ public class ArrayOperationsTest {
 			int expected = 100;
 			int actual = obj.maxElement(inputArr);
 			assertEquals(expected,actual);
+		}
+		
+		@Test
+		void sortPNumberTest() {
+			ArrayOperations obj = new ArrayOperations();
+			int[] inputArr = {2,5,4,3,6,1};
+			int[] expected = {1,2,3,4,5,6};
+			int[] actual = obj.sort(inputArr);
+			assertArrayEquals(expected,actual);
+		}
+		@Test
+		void sortNNumberTest() {
+			ArrayOperations obj = new ArrayOperations();
+			int[] inputArr = {-2,-5,-4,-3,-6,-1};
+			int[] expected = {-6,-5,-4,-3,-2,-1};
+			int[] actual = obj.sort(inputArr);
+			assertArrayEquals(expected,actual);
 		}
 }
