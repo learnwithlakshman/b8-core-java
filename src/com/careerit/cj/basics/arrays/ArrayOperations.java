@@ -34,6 +34,9 @@ public class ArrayOperations {
 		int n = arr.length;
 		for (int i = 0; i < n - 1; i++) {
 			for (int j = 0; j < n - i - 1; j++) {
+				/*
+				 * Swap numbers if first element is bigger than second
+				 */
 				if (arr[j] > arr[j + 1]) {
 					int temp = arr[j];
 					arr[j] = arr[j + 1];
@@ -41,6 +44,9 @@ public class ArrayOperations {
 				}
 			}
 		}
+		/*
+		 * Sorted array is going return
+		 */
 		return arr;
 	}
 }
