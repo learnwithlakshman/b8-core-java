@@ -1,6 +1,6 @@
 package com.careerit.cj.basics.arrays;
 
-public class RotateArrayElements {
+public class ArrayAssignment {
 
 	public int[] rotate(int[] arr, int n) {
 
@@ -18,7 +18,14 @@ public class RotateArrayElements {
 	}
 
 	public int occuranceOfKey(int[] arr, int key) {
-
-		return 0;
+		int count = 0;
+		if (arr != null && arr.length != 0) {
+			for (int ele : arr) {
+				if (ele == key) {
+					count++;
+				}
+			}
+		}
+		return count;
 	}
 }

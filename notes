@@ -90,6 +90,21 @@ Exit:
 
 
 
+.java
+
+import java.lang (It will imported by default)
+
+	String
+	Object
+	StringBuffer
+	StringBuilder
+
+String object immutable: Once object created the can't be modified
 
 
 
+static : static method, static blocks, static imports, static inner class
+instance 
+access specifiers (private, public default,protected)
+
+Object Oriented Programming
