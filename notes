@@ -108,3 +108,49 @@ instance
 access specifiers (private, public default,protected)
 
 Object Oriented Programming
+
+
+static:
+final:
+enum:
+access specifiers:
+	
+	
+			1. Blocks
+			2. Variables
+			3. Method
+			4. Inner classes
+			5. imports
+	
+Blocks:
+	
+	
+	instance 
+	class
+	
+	
+	private
+	(default)
+	
+	protected and (default)
+	
+	A => B : IS-A, HAS-A
+	
+	private constructor:
+		is it possible to create object in another class?
+		
+	final class:
+		can it be inherited?
+		
+	static block ( multiple )?
+		yes
+	
+	When the memory is going allocate static variable?
+	 
+	     At the loading .class
+	     
+	is it possible to access no static variable in static context?
+	
+	     No
+	     
+	
