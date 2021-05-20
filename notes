@@ -152,5 +152,29 @@ Blocks:
 	is it possible to access no static variable in static context?
 	
 	     No
+	  
+	 final:   
+	     class
+	     method
+	     variable
+	 
+	 Object Oriented Programming:
+	 
+	 	class 
+	 	Object
+	 	
+	 	   Constructor
+	 	   this
+	 	   method
+	 	   instance variable
+	 	   class variables
+	 	   method overloading
+	 	   
+	 	
+	 	
+	 	Inheritance
+	 	Abstraction
+	 	Polymorphism
+	 	Encapsulation 
 	     
 	
