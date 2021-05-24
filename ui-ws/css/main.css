@@ -1,0 +1,16 @@
+
+.heading {
+    background: blueviolet;
+    color: white;
+    padding: 10px 5px;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+#main-heading{
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+    color: green;
+    margin-bottom: 10px;
+}

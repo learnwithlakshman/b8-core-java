@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Learning UI</title>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div id="main-heading">
+            <strong>Learning UI</strong>
+        </div>
+        <div class="heading">Headings</div>
+
+        <h1 id="heading1">Heading -1</h1>
+        <h2>Heading -2</h2>
+        <h3>Heading -3</h3>
+        <h4>Heading -4</h4>
+        <h5>Heading -5</h5>
+        <h6>Heading -6</h6>
+
+        <div class="heading">Paragraphs</div>
+
+        <!--Basic element-->
+        <p>
+            <strong>Lorem ipsum</strong>
+            dolor sit amet consectetur adipisicing elit.
+            <del>Temporibus vitae
+            </del>laborum aperiam cum commodi, 
+                                                animi expedita labore repellendus suscipit, exercitationem esse quam autem quibusdam quisquam explicabo minima 
+                               
+                                                laboriosam omnis dolore!</p>
+
+        <p>
+            <i>
+                <u>Lorem ipsum</u>
+            </i>, dolor sit amet consectetur adipisicing elit. Perferendis fugit doloremque adipisci quae non,
+                                                 id, eaque dolorum modi laborum provident dolore corporis architecto laudantium obcaecati. 
+                                                 Voluptates veritatis porro sed velit.</p>
+
+
+        <h3>H<sub>2</sub>O, M<sup>3</sup>
+        </h3>
+        Hi Team,<br/>
+        &nbsp;&nbsp;I hope everyone is doing
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, officia nemo praesentium culpa, natus animi, obcaecati reprehenderit consequuntur ducimus cupiditate et facilis. Recusandae, asperiores facere vel commodi suscipit dolore necessitatibus.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, officia nemo praesentium culpa, natus animi, obcaecati reprehenderit consequuntur ducimus cupiditate et facilis. Recusandae, asperiores facere vel commodi suscipit dolore necessitatibus.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, officia nemo praesentium culpa, natus animi, obcaecati reprehenderit consequuntur ducimus cupiditate et facilis. Recusandae, asperiores facere vel commodi suscipit dolore necessitatibus.</p>
+
+        <!--End of basic element-->
+        <div class="heading" >Links</div>
+
+        <p>
+            <a href="css.html">CSS</a>
+        </p>
+        <p>
+            <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+        </p>
+        <p>
+            <a href="https://www.google.com/">Google</a>
+        </p>
+        <p>
+            <a href="https://www.w3schools.com/html/">W3Schools</a>
+        </p>
+        <p>
+            <a href="#heading1">Images</a>
+        </p>
+        <div class="heading">Images and Videos</div>
+
+        <img src="images/1.jpg" alt="Some random image">
+        <img src="images/2.jpg" alt="Some random image">
+        <img src="images/3.jpg" alt="Some random image">
+
+        <div class="heading">Vidoe and Audio</div>
+        <video width="420" height="315" controls>
+
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        </video>
+        <iframe width="420" height="265" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1"></iframe>
+
+        <div class="heading">Table</div>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th colspan="5">Employee Information</th>
+                </tr>
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Mobile</th>
+                    <th>Edit|Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>3</td>
+                    <td>Krish</td>
+                    <td>krish@gmail.com</td>
+                    <td>87654345678</td>
+                    <td>
+                        <a href="">Del</a>&nbsp;|&nbsp;<a href="">Edit</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Krish</td>
+                    <td>krish@gmail.com</td>
+                    <td>87654345678</td>
+                    <td>
+                        <a href="">Del</a>&nbsp;|&nbsp;<a href="">Edit</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Krish</td>
+                    <td>krish@gmail.com</td>
+                    <td>87654345678</td>
+                    <td>
+                        <a href="">Del</a>&nbsp;|&nbsp;<a href="">Edit</a>
+                    </td>
+                </tr>
+            </tbody>
+
+        </table>
+        <div class="heading">Forms</div>
+        <form action="#" method="POST">
+            <p>
+                <label>First Name</label>
+                <input type="text" placeholder="Enter your first name" name="fname" class="textInput">
+            </p>
+            <p>
+                <label>Last Name</label>
+                <input type="text" placeholder="Enter your last name" name="lname" class="textInput">
+            </p>
+            <p>
+                <label>Email</label>
+                <input type="email" placeholder="Enter your email" name="email" class="textInput">
+            </p>
+            <p>
+                <label>Gender</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+            </p>
+            <p>
+                <label>Qualification</label>
+                <select>
+                    <option value="">Select Qualification</option>
+                    <option value="B.E">B.E</option>
+                    <option value="MCA">MCA</option>
+                    <option value="M.Tech">M.Tech</option>
+                    <option value="Other">Others</option>
+                </select>
+            </p>
+            <p>
+                <label>Tell more details</label>
+                <textarea rows="5" cols="50"></textarea>
+            </p>
+            <p>
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1">Terms and Condition</label><br></p>
+            <p>
+                <label>&nbsp;</label>
+                <input type="submit" value="Submit">
+            </p>
+        </form>
+        <div class="heading">List Items</div>
+        <ol>
+            <li>UI
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>jQuery</li>
+                    <li>AJAX</li>
+                </ul>
+            </li>
+            <li>Java
+
+                <ul>
+                    <li>Basics</li>
+                    <li>If</li>
+                    <li>for</li>
+
+                </ul>
+            </li>
+            <li>Web</li>
+
+
+        </ol>
+    </body>
+</html>
