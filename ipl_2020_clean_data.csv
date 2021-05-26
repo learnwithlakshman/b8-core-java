@@ -1,0 +1,190 @@
+name,role,country,team,price
+Virat Kohli,Batsman,India,RCB,170000000
+AB de Villiers,Wicket Keeper,South Africa,RCB,110000000
+Chris Morris,All Rounder,South Africa,RCB,100000000
+Yuzvendra Chahal,Bowler,India,RCB,60000000
+Shivam Dube,All Rounder,India,RCB,50000000
+Aaron Finch,Batsman,Australia,RCB,44000000
+Umesh Yadav,Bowler,India,RCB,42000000
+Kane Richardson,Bowler,Australia,RCB,40000000
+Washington Sundar,All Rounder,India,RCB,32000000
+Navdeep Saini,Bowler,India,RCB,30000000
+Mohammed Siraj,Bowler,India,RCB,26000000
+Dale Steyn,Bowler,South Africa,RCB,20000000
+Moeen Ali,All Rounder,England,RCB,17000000
+Parthiv Patel,Wicket Keeper,India,RCB,17000000
+Pawan Negi,All Rounder,India,RCB,10000000
+Gurkeerat Singh,All Rounder,India,RCB,5000000
+Isuru Udana,All Rounder,Sri Lanka,RCB,5000000
+Devdutt Padikkal,Batsman,India,RCB,2000000
+Pavan Deshpande,All Rounder,India,RCB,2000000
+Shahbaz Ahamad,Wicket Keeper,India,RCB,2000000
+Joshua Philippe,Wicket Keeper,Australia,RCB,2000000
+MS Dhoni,Wicket Keeper,India,CSK,150000000
+Suresh Raina,Batsman,India,CSK,110000000
+Kedar Jadhav,All Rounder,India,CSK,78000000
+Ravindra Jadeja,All Rounder,India,CSK,70000000
+Piyush Chawla,Bowler,India,CSK,67500000
+Dwayne Bravo,All Rounder,West Indies,CSK,64000000
+Sam Curran,All Rounder,England,CSK,55000000
+Karn Sharma,Bowler,India,CSK,50000000
+Shane Watson,All Rounder,Australia,CSK,40000000
+Shardul Thakur,Bowler,India,CSK,26000000
+Ambati Rayudu,Wicket Keeper,India,CSK,22000000
+Harbhajan Singh,Bowler,India,CSK,20000000
+Murali Vijay,Batsman,India,CSK,20000000
+Josh Hazlewood,Bowler,Australia,CSK,20000000
+Faf Du Plessis,Batsman,South Africa,CSK,16000000
+Imran Tahir,Bowler,South Africa,CSK,10000000
+Deepak Chahar,All Rounder,India,CSK,8000000
+Lungisani Ngidi,Bowler,South Africa,CSK,5000000
+Mitchell Santner,All Rounder,New Zealand,CSK,5000000
+Asif K M,Bowler,India,CSK,4000000
+Jagadeesan Narayan,Wicket Keeper,India,CSK,2000000
+Monu Singh,Bowler,India,CSK,2000000
+Ruturaj Gaikwad,Batsman,India,CSK,2000000
+R Sai Kishore,Bowler,India,CSK,2000000
+Rishabh Pant,Wicket Keeper,India,DC,150000000
+Shimron Hetmyer,Batsman,West Indies,DC,77500000
+Ravichandran Ashwin,All Rounder,India,DC,76000000
+Shreyas Iyer,Batsman,India,DC,70000000
+Ajinkya Rahane,Batsman,India,DC,52500000
+Shikhar Dhawan,Batsman,India,DC,52000000
+Axar Patel,All Rounder,India,DC,50000000
+Marcus Stoinis,All Rounder,Australia,DC,48000000
+Kagiso Rabada,Bowler,South Africa,DC,42000000
+Amit Mishra,Bowler,India,DC,40000000
+Alex Carey,Wicket Keeper,Australia,DC,24000000
+Jason Roy,Batsman,England,DC,15000000
+Chris Woakes,All Rounder,England,DC,15000000
+Prithvi Shaw,Batsman,India,DC,12000000
+Ishant Sharma,Bowler,India,DC,11000000
+Avesh Khan,Bowler,India,DC,7000000
+Keemo Paul,All Rounder,West Indies,DC,5000000
+Mohit Sharma,Bowler,India,DC,5000000
+Harshal Patel,All Rounder,India,DC,2000000
+Sandeep Lamichhane,Bowler,Nepal,DC,2000000
+Tushar Deshpande,Bowler,India,DC,2000000
+Lalit Yadav,All Rounder,India,DC,2000000
+David Warner,Batsman,Australia,SRH,125000000
+Manish Pandey,Batsman,India,SRH,110000000
+Rashid Khan Arman,Bowler,Afghanistan,SRH,90000000
+Bhuvneshwar Kumar,Bowler,India,SRH,85000000
+Siddharth Kaul,Bowler,India,SRH,38000000
+Shahbaz Nadeem,Bowler,India,SRH,32000000
+Vijay Shankar,All Rounder,India,SRH,32000000
+Kane Williamson,Batsman,New Zealand,SRH,30000000
+Sandeep Sharma,Bowler,India,SRH,30000000
+Syed Khaleel Ahmed,Bowler,India,SRH,30000000
+Jonny Bairstow,Wicket Keeper,England,SRH,22000000
+Mitchell Marsh,All Rounder,Australia,SRH,20000000
+Priyam Garg,Batsman,India,SRH,19000000
+Virat Singh,Batsman,India,SRH,19000000
+Wriddhiman Saha,Wicket Keeper,India,SRH,12000000
+Mohammad Nabi Eisakhil,All Rounder,Afghanistan,SRH,10000000
+Shreevats Goswami,Wicket Keeper,India,SRH,10000000
+Basil Thampi,Bowler,India,SRH,9500000
+Abhishek Sharma,All Rounder,India,SRH,5500000
+Billy Stanlake,Bowler,Australia,SRH,5000000
+Fabian Allen,All Rounder,West Indies,SRH,5000000
+T Natarajan,Bowler,India,SRH,4000000
+Sandeep Bavanaka,All Rounder,India,SRH,2000000
+Abdul Samad,All Rounder,India,SRH,2000000
+Sanjay Yadav,All Rounder,India,SRH,2000000
+Pat Cummins,All Rounder,Australia,KKR,155000000
+Sunil Narine,Bowler,West Indies,KKR,125000000
+Andre Russell,All Rounder,West Indies,KKR,85000000
+Dinesh Karthik,Wicket Keeper,India,KKR,74000000
+Kuldeep Yadav,Bowler,India,KKR,58000000
+Eoin Morgan,Batsman,England,KKR,52500000
+Varun Chakaravarthy,All Rounder,India,KKR,40000000
+Nitish Rana,All Rounder,India,KKR,34000000
+Kamlesh Nagarkoti,All Rounder,India,KKR,32000000
+Shivam Mavi,All Rounder,India,KKR,30000000
+Shubman Gill,Batsman,India,KKR,18000000
+Lockie Ferguson,Bowler,New Zealand,KKR,16000000
+Tom Banton,Batsman,England,KKR,10000000
+Rinku Singh,Batsman,India,KKR,8000000
+Harry Gurney,Bowler,England,KKR,7500000
+Rahul Tripathi,Batsman,India,KKR,6000000
+Prasidh Krishna,Bowler,India,KKR,2000000
+Sandeep Warrier,Bowler,India,KKR,2000000
+Siddhesh Lad,Batsman,India,KKR,2000000
+M Siddharth,Bowler,India,KKR,2000000
+Chris Green,All Rounder,Australia,KKR,2000000
+Nikhil Naik,Wicket Keeper,India,KKR,2000000
+Pravin Tambe,Bowler,India,KKR,2000000
+Rohit Sharma,Batsman,India,MI,150000000
+Hardik Pandya,All Rounder,India,MI,110000000
+Krunal Pandya,All Rounder,India,MI,88000000
+Nathan Coulter-Nile,Bowler,Australia,MI,80000000
+Jasprit Bumrah,Bowler,India,MI,70000000
+Ishan Kishan,Wicket Keeper,India,MI,62000000
+Kieron Pollard,All Rounder,West Indies,MI,54000000
+Surya Kumar Yadav,Batsman,India,MI,32000000
+Trent Boult,Bowler,New Zealand,MI,32000000
+Quinton De Kock,Wicket Keeper,South Africa,MI,28000000
+Lasith Malinga,Bowler,Sri Lanka,MI,20000000
+Sherfane Rutherford,All Rounder,West Indies,MI,20000000
+Chris Lynn,Batsman,Australia,MI,20000000
+Rahul Chahar,Bowler,India,MI,19000000
+Mitchell McClenaghan,Bowler,New Zealand,MI,10000000
+Anmolpreet Singh,Batsman,India,MI,8000000
+Dhawal Kulkarni,Bowler,India,MI,7500000
+Jayant Yadav,All Rounder,India,MI,5000000
+Saurabh Tiwary,Batsman,India,MI,5000000
+Aditya Tare,Wicket Keeper,India,MI,2000000
+Anukul Roy,All Rounder,India,MI,2000000
+Mohsin Khan,Bowler,India,MI,2000000
+Digvijay Deshmukh,All Rounder,India,MI,2000000
+Prince Balwant Rai Singh,All Rounder,India,MI,2000000
+KL Rahul,Batsman,India,KXIP,110000000
+Glenn Maxwell,All Rounder,Australia,KXIP,107500000
+Sheldon Cottrell,Bowler,West Indies,KXIP,85000000
+Gowtham Krishnappa,Bowler,India,KXIP,62000000
+Karun Nair,Batsman,India,KXIP,56000000
+Mohammad Shami,Bowler,India,KXIP,48000000
+Nicholas Pooran,Wicket Keeper,West Indies,KXIP,42000000
+Mujeeb Zadran,Bowler,Afghanistan,KXIP,40000000
+Chris Jordan,All Rounder,England,KXIP,30000000
+Chris Gayle,Batsman,West Indies,KXIP,20000000
+Ravi Bishnoi,Bowler,India,KXIP,20000000
+Mandeep Singh,Batsman,India,KXIP,14000000
+Mayank Agarwal,Batsman,India,KXIP,10000000
+Hardus Viljoen,Bowler,South Africa,KXIP,7500000
+Prabhsimran Singh,Wicket Keeper,India,KXIP,5500000
+Deepak Hooda,All Rounder,India,KXIP,5000000
+James Neesham,All Rounder,New Zealand,KXIP,5000000
+Darshan Nalkande,All Rounder,India,KXIP,3000000
+Sarfaraz Khan,All Rounder,India,KXIP,2500000
+Arshdeep Singh,Bowler,India,KXIP,2000000
+Harpreet Brar,All Rounder,India,KXIP,2000000
+Jagadeesha Suchith,Bowler,India,KXIP,2000000
+Murugan Ashwin,Bowler,India,KXIP,2000000
+Ishan Porel,Bowler,India,KXIP,2000000
+Tajinder Dhillon,All Rounder,India,KXIP,2000000
+Ben Stokes,All Rounder,England,RR,125000000
+Steve Smith,Batsman,Australia,RR,125000000
+Sanju Samson,Wicket Keeper,India,RR,80000000
+Jofra Archer,All Rounder,England,RR,72000000
+Jos Buttler,Wicket Keeper,England,RR,44000000
+Ankit Singh Rajpoot,Bowler,India,RR,30000000
+Rahul Tewatia,All Rounder,India,RR,30000000
+Robin Uthappa,Batsman,India,RR,30000000
+Jaydev Unadkat,Bowler,India,RR,30000000
+Varun Aaron,Bowler,India,RR,24000000
+Yashasvi Jaiswal,All Rounder,India,RR,24000000
+Mayank Markande,Bowler,India,RR,20000000
+Kartik Tyagi,Bowler,India,RR,13000000
+Andrew Tye,Bowler,Australia,RR,10000000
+Tom Curran,All Rounder,England,RR,10000000
+Anuj Rawat,Wicket Keeper,India,RR,8000000
+David Miller,Batsman,South Africa,RR,7500000
+Oshane Thomas,Bowler,West Indies,RR,5000000
+Shashank Singh,All Rounder,India,RR,3000000
+Mahipal Lomror,All Rounder,India,RR,2000000
+Manan Vohra,Batsman,India,RR,2000000
+Riyan Parag,All Rounder,India,RR,2000000
+Shreyas Gopal,All Rounder,India,RR,2000000
+Akash Singh,Bowler,India,RR,2000000
+Anirudha Joshi,All Rounder,India,RR,2000000
