@@ -183,7 +183,7 @@ Blocks:
 	1. Display the player of the given team
 	2. Display total amount spend by each team
 	3. Display the role count of the given team
-	4. Display max paid player of the given team
+	4. Display max paid player(s) of the given team
 	5. Display all the player from the given country
 	6. Display top 3  paid players details     
 	
