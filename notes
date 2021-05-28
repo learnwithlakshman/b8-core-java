@@ -187,3 +187,28 @@ Blocks:
 	5. Display all the player from the given country
 	6. Display top 3  paid players details     
 	
+	
+final:
+
+  Immutable object:
+  
+  	Create Custom (Ex Employee) as immutable class
+  	
+  	
+ abstract:
+    keyword can be used only with method and class
+ 
+ abstract Account
+ 	abstract void withDraw(amount);
+ 	deposit(amount){
+ 	}
+ 	showDetails(){
+ 	}
+ 	
+ 	
+    SavingAccount
+    CurrentAccount
+ 	
+ 	
+interface:
+	
