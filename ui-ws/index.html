@@ -6,11 +6,32 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Learning UI</title>
         <link rel="stylesheet" href="css/main.css">
+        
+       <style>
+           p.withbackground{
+               background-color: greenyellow;
+           }
+       </style>
+
     </head>
     <body>
         <div id="main-heading">
             <strong>Learning UI</strong>
         </div>
+
+        <div class="boxdata">
+            <p>
+                1. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe nostrum ullam impedit enim libero quia ipsa veniam explicabo nam maxime in autem provident quae sed, aliquam ipsum aperiam inventore. Nostrum?
+            </p>
+        </div>
+        <div class="boxdata">
+            <p>
+                2. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe nostrum ullam impedit enim libero quia ipsa veniam explicabo nam maxime in autem provident quae sed, aliquam ipsum aperiam inventore. Nostrum?
+            </p>
+        </div>
+        <p class="withbackground">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas reiciendis quae temporibus hic dolorem earum distinctio, cum sint natus animi id. Blanditiis autem pariatur veritatis quaerat nulla numquam, dolores repellat?
+        </p>
         <div class="heading">Headings</div>
 
         <h1 id="heading1">Heading -1</h1>
@@ -80,7 +101,7 @@
         <iframe width="420" height="265" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1"></iframe>
 
         <div class="heading">Table</div>
-        <table border="1">
+        <table id="contact">
             <thead>
                 <tr>
                     <th colspan="5">Employee Information</th>
@@ -113,6 +134,33 @@
                     </td>
                 </tr>
                 <tr>
+                    <td>4</td>
+                    <td>Krish</td>
+                    <td>krish@gmail.com</td>
+                    <td>87654345678</td>
+                    <td>
+                        <a href="">Del</a>&nbsp;|&nbsp;<a href="">Edit</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Krish</td>
+                    <td>krish@gmail.com</td>
+                    <td>87654345678</td>
+                    <td>
+                        <a href="">Del</a>&nbsp;|&nbsp;<a href="">Edit</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Krish</td>
+                    <td>krish@gmail.com</td>
+                    <td>87654345678</td>
+                    <td>
+                        <a href="">Del</a>&nbsp;|&nbsp;<a href="">Edit</a>
+                    </td>
+                </tr>
+                <tr>
                     <td>5</td>
                     <td>Krish</td>
                     <td>krish@gmail.com</td>
@@ -125,6 +173,7 @@
 
         </table>
         <div class="heading">Forms</div>
+        <div id="regForm">
         <form action="#" method="POST">
             <p>
                 <label>First Name</label>
@@ -140,16 +189,16 @@
             </p>
             <p>
                 <label>Gender</label>
-                <input type="radio" id="male" name="gender" value="male">
-                <label for="male">Male</label>
-                <input type="radio" id="female" name="gender" value="female">
-                <label for="female">Female</label>
-                <input type="radio" id="other" name="gender" value="other">
-                <label for="other">Other</label>
+                <input type="radio" id="male" name="gender" value="male" class="radio">
+                Male 
+                <input type="radio" id="female" name="gender" value="female"  class="radio">
+               Female
+                <input type="radio" id="other" name="gender" value="other"  class="radio">
+               Other
             </p>
             <p>
                 <label>Qualification</label>
-                <select>
+                <select  class="textInput" >
                     <option value="">Select Qualification</option>
                     <option value="B.E">B.E</option>
                     <option value="MCA">MCA</option>
@@ -159,16 +208,17 @@
             </p>
             <p>
                 <label>Tell more details</label>
-                <textarea rows="5" cols="50"></textarea>
+                <textarea rows="5" cols="52"></textarea>
             </p>
             <p>
                 <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
                 <label for="vehicle1">Terms and Condition</label><br></p>
             <p>
                 <label>&nbsp;</label>
-                <input type="submit" value="Submit">
+                <input type="submit" value="Submit" class="btn">
             </p>
         </form>
+    </div>
         <div class="heading">List Items</div>
         <ol>
             <li>UI
