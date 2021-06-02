@@ -212,3 +212,11 @@ final:
  	
 interface:
 	
+		Function interface
+		
+			interface with one abstract method is called functional interface (Java8) -> Lambda expression 
+	
+		Marker interface 
+		
+			interface with zero method is called marker interface
+	
