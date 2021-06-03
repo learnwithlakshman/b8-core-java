@@ -1,5 +1,8 @@
 package com.careerit.cj.oops.interfaceexample.assignment;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import com.careerit.cj.oops.interfaceexample.PrimeGenerator;
 
 class One implements PrimeGenerator{
@@ -35,5 +38,7 @@ public class Manager {
 				
 				PrimeGenerator ele = new One();
 				ele.generatePrime(10, 20);
+				
+			
 		}
 }
