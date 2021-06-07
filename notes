@@ -219,4 +219,13 @@ interface:
 		Marker interface 
 		
 			interface with zero method is called marker interface
+			
+			
+			
+			NullPointerException
+			ArrayIndexOutOfBounceException
+			ClassCastException
+			StringIndexOutOfBounceException
+			NumberFormatExcpetion
+			
 	

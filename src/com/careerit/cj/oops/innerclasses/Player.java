@@ -1,4 +1,6 @@
 package com.careerit.cj.oops.innerclasses;
+
+
 public class Player {
 
 	private String name;
@@ -27,4 +29,10 @@ public class Player {
 	public void setPrice(double price) {
 		this.price = price;
 	}
+
+	@Override
+	public String toString() {
+		return String.format("Player [name=%s, price=%s]", name, price);
+	}
+	
 }

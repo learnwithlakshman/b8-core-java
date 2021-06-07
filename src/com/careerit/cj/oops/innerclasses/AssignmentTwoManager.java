@@ -1,5 +1,7 @@
 package com.careerit.cj.oops.innerclasses;
 
+import java.util.Arrays;
+
 public class AssignmentTwoManager {
 
 	public static void main(String[] args) {
@@ -39,5 +41,8 @@ public class AssignmentTwoManager {
 		service.showPlayerDetails("Bhuvi");
 		service.updatePlayerPrice("Bhuvi", 50000);
 		service.showPlayerDetails("Bhuvi");
+		
+		Player[] players= {player1,player2,player3};
+		System.out.println(Arrays.toString(players));
 	}
 }
