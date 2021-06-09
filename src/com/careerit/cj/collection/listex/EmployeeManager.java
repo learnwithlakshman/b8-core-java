@@ -1,4 +1,4 @@
-package com.careerit.cj.collection;
+package com.careerit.cj.collection.listex;
 
 import java.util.ArrayList;
 import java.util.List;

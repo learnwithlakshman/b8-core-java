@@ -1,0 +1,36 @@
+#1
+Which of the following is not a valid data type in java?
+
+int
+float
+bool
+byte
+Ans: 3
+#2
+Which of the following is not a valid keyword in java?
+int
+float
+string
+if
+Ans: 3
+#3
+What is output of 2 / 3 in java?
+1
+0
+0.66
+1
+Ans: 2
+#4
+Which of the following is not a valid main method declaration?
+public static void man(String[] args)
+public final static void man(String[] args)
+public final static void man(final String[] args)
+public static void Mian(String[] args)
+Ans: 4
+#5
+What is the value of res =  a> b ? a : b (a = 10, b = 5) ?
+10
+5
+15
+0
+Ans: 1
