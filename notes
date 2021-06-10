@@ -90,6 +90,142 @@ Exit:
 
 
 
+.java
+
+import java.lang (It will imported by default)
+
+	String
+	Object
+	StringBuffer
+	StringBuilder
+
+String object immutable: Once object created the can't be modified
 
 
 
+static : static method, static blocks, static imports, static inner class
+instance 
+access specifiers (private, public default,protected)
+
+Object Oriented Programming
+
+
+static:
+final:
+enum:
+access specifiers:
+	
+	
+			1. Blocks
+			2. Variables
+			3. Method
+			4. Inner classes
+			5. imports
+	
+Blocks:
+	
+	
+	instance 
+	class
+	
+	
+	private
+	(default)
+	
+	protected and (default)
+	
+	A => B : IS-A, HAS-A
+	
+	private constructor:
+		is it possible to create object in another class?
+		
+	final class:
+		can it be inherited?
+		
+	static block ( multiple )?
+		yes
+	
+	When the memory is going allocate static variable?
+	 
+	     At the loading .class
+	     
+	is it possible to access no static variable in static context?
+	
+	     No
+	  
+	 final:   
+	     class
+	     method
+	     variable
+	 
+	 Object Oriented Programming:
+	 
+	 	class 
+	 	Object
+	 	
+	 	   Constructor
+	 	   this
+	 	   method
+	 	   instance variable
+	 	   class variables
+	 	   method overloading
+	 	   
+	 	
+	 	
+	 	Inheritance
+	 	Abstraction
+	 	Polymorphism
+	 	Encapsulation 
+	
+	
+
+1. Read ipl_2021 data from csv
+	1. Display the player of the given team
+	2. Display total amount spend by each team
+	3. Display the role count of the given team
+	4. Display max paid player(s) of the given team
+	5. Display all the player from the given country
+	6. Display top 3  paid players details     
+	
+	
+final:
+
+  Immutable object:
+  
+  	Create Custom (Ex Employee) as immutable class
+  	
+  	
+ abstract:
+    keyword can be used only with method and class
+ 
+ abstract Account
+ 	abstract void withDraw(amount);
+ 	deposit(amount){
+ 	}
+ 	showDetails(){
+ 	}
+ 	
+ 	
+    SavingAccount
+    CurrentAccount
+ 	
+ 	
+interface:
+	
+		Function interface
+		
+			interface with one abstract method is called functional interface (Java8) -> Lambda expression 
+	
+		Marker interface 
+		
+			interface with zero method is called marker interface
+			
+			
+			
+			NullPointerException
+			ArrayIndexOutOfBounceException
+			ClassCastException
+			StringIndexOutOfBounceException
+			NumberFormatExcpetion
+			
+	

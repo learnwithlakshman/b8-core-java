@@ -1,0 +1,78 @@
+/* body{
+    background-image: url("/images/paper.gif");
+  
+} */
+.heading {
+    background: #056a93;
+    color: white;
+    padding: 10px 5px;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+#main-heading{
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+    color: green;
+    margin-bottom: 10px;
+}
+
+.boxdata{
+    border: 1px groove red;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+#contact{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 20px;
+  
+}
+#contact td, #contact th{
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+#contact th{
+    color: white;
+    background: green;
+    padding: 10px 0px 10px 0px;
+}
+#contact tr:nth-child(even){background-color: #f2f2f2;}
+#contact tr:hover{background-color: darkgrey;}
+
+#regForm{
+    width: 60%;
+    margin: auto;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 1px 11px 2px;
+    margin-bottom: 50px;
+}
+label{
+    width: 200px;
+    float:left
+}
+.textInput{
+    width: 400px;
+    height: 30px;
+}
+.radio{
+    width: 30px;
+    height: 15px;
+}
+
+.btn{
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+}

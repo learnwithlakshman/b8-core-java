@@ -72,4 +72,26 @@ public class ArrayOperationsTest {
 			int[] actual = obj.sort(inputArr);
 			assertArrayEquals(expected,actual);
 		}
+		@Test
+		void binaraySearchWithKey() {
+			ArrayOperations obj = new ArrayOperations();
+			int[] input =  {2,3,5,7,11,12,13,15,17,18,19};
+			int key = 17;
+			int expected = 8;
+			int actual = obj.binarySearch(input, key);
+			assertEquals(expected, actual);
+			
+		}
+		
+		@Test
+		void binaraySearchWithOutKey() {
+			ArrayOperations obj = new ArrayOperations();
+			int[] input =  {2,3,5,7,11,12,13,15,17,18,19};
+			int key = 27;
+			int expected = -1;
+			int actual = obj.binarySearch(input, key);
+			assertEquals(expected, actual);
+			
+		}
+
 }
