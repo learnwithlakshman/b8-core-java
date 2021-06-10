@@ -1,27 +1,27 @@
-package com.careerit.cj.collection.setex;
+package com.careerit.cj.collection.mapexample;
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.HashSet;
+import java.util.HashMap;
 import java.util.List;
-import java.util.Set;
+import java.util.Map;
 
 class Player {
 	private String name;
 	private String role;
-	private String countr;
+	private String country;
 	private String team;
 	private double price;
 
 	Player() {
 	}
 
-	public Player(String name, String role, String countr, String team, double price) {
+	public Player(String name, String role, String country, String team, double price) {
 		this.name = name;
 		this.role = role;
-		this.countr = countr;
+		this.country = country;
 		this.team = team;
 		this.price = price;
 	}
@@ -43,11 +43,11 @@ class Player {
 	}
 
 	public String getCountr() {
-		return countr;
+		return country;
 	}
 
-	public void setCountr(String countr) {
-		this.countr = countr;
+	public void setCountry(String country) {
+		this.country = country;
 	}
 
 	public String getTeam() {
@@ -66,20 +66,42 @@ class Player {
 		this.price = price;
 	}
 
+	@Override
+	public String toString() {
+		return String.format("Player [name=%s, role=%s, country=%s, team=%s, price=%s]", name, role, country, team,
+				price);
+	}
+	
+
 }
 
 public class PlayerManager {
 
 	public static void main(String[] args) {
 		List<Player> list = getPlayers();
-		// Get all team names only
-		// Count of teams
-		Set<String> teamNames = new HashSet<>();
+		System.out.println(list);
+		// Please give team wise player details
+		
+		// Get players of given team CSK | RCB
+		
+		Map<String,List<Player>> map = new HashMap<>();
+		
 		for(Player p:list) {
-			teamNames.add(p.getTeam());
+			map.putIfAbsent(p.getTeam(), new ArrayList<Player>());
+			map.get(p.getTeam()).add(p);
 		}
-		System.out.println(teamNames+" and count :"+teamNames.size());
+		
+		
+		String teamName = "CSK";
+
+		List<Player> playerList = map.get(teamName);
+		System.out.println(playerList);
+		
+		
+		
 	}
+	
+
 
 	private static List<Player> getPlayers() {
 

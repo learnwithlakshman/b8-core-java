@@ -1,6 +1,5 @@
 #1
 Which of the following is not a valid data type in java?
-
 int
 float
 bool
