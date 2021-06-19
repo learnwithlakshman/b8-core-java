@@ -4,9 +4,12 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.DoubleSummaryStatistics;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
+import java.util.stream.Collectors;
 
 class Player {
 	private String name;
@@ -75,6 +78,33 @@ class Player {
 
 }
 
+class PlayerDTO{
+	private String name;
+	private double amount;
+	PlayerDTO(String name, double amount) {
+		super();
+		this.name = name;
+		this.amount = amount;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public double getAmount() {
+		return amount;
+	}
+	public void setAmount(double amount) {
+		this.amount = amount;
+	}
+	@Override
+	public String toString() {
+		return String.format("PlayerDTO [name=%s, amount=%s]", name, amount);
+	}
+	
+}
+
 public class PlayerManager {
 
 	public static void main(String[] args) {
@@ -97,7 +127,20 @@ public class PlayerManager {
 		List<Player> playerList = map.get(teamName);
 		System.out.println(playerList);
 		
+		Map<String, Double> amount = list.stream()
+										   .filter(p->p.getTeam().equals("CSK"))
+				                          .collect(Collectors.groupingBy(Player::getTeam,Collectors.summingDouble(Player::getPrice)));
 		
+		Set<String> teams = list.stream().map(p->p.getTeam()).collect(Collectors.toSet());
+		System.out.println(teams);
+		
+		// Get only player name and price of csk and who are paid 20_00_000;
+		List<PlayerDTO> playerDtoList =
+						   list.stream()
+						  .filter(p->p.getTeam().equals("CSK"))
+						  .filter(p->p.getPrice()==20_00_000)
+						 .map(p->new PlayerDTO(p.getName(), p.getPrice())).collect(Collectors.toList());
+		System.out.println(playerDtoList);
 		
 	}
 	
